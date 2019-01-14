@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58FEA1A7C0CC9C190B346826 /* Pods_Oustgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A664F730B2FE7D6BAAAE39A /* Pods_Oustgram.framework */; };
 		C7289C0621EA48F900B6BD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7289C0521EA48F900B6BD3B /* AppDelegate.swift */; };
 		C7289C0821EA48F900B6BD3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7289C0721EA48F900B6BD3B /* ViewController.swift */; };
 		C7289C0B21EA48F900B6BD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7289C0921EA48F900B6BD3B /* Main.storyboard */; };
 		C7289C0D21EA48FA00B6BD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7289C0C21EA48FA00B6BD3B /* Assets.xcassets */; };
 		C7289C1021EA48FA00B6BD3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7289C0E21EA48FA00B6BD3B /* LaunchScreen.storyboard */; };
+		C7289C1821EC174700B6BD3B /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7289C1721EC174700B6BD3B /* UserTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A664F730B2FE7D6BAAAE39A /* Pods_Oustgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oustgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E47CD8C28FF164B34AFA99 /* Pods-Oustgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oustgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oustgram/Pods-Oustgram.debug.xcconfig"; sourceTree = "<group>"; };
+		8DCFBECBB2922DA00839A905 /* Pods-Oustgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oustgram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oustgram/Pods-Oustgram.release.xcconfig"; sourceTree = "<group>"; };
 		C7289C0221EA48F900B6BD3B /* Oustgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oustgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7289C0521EA48F900B6BD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7289C0721EA48F900B6BD3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		C7289C0C21EA48FA00B6BD3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7289C0F21EA48FA00B6BD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7289C1121EA48FA00B6BD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7289C1721EC174700B6BD3B /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58FEA1A7C0CC9C190B346826 /* Pods_Oustgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D6A91B5C3788E4E0D2A985C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A664F730B2FE7D6BAAAE39A /* Pods_Oustgram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAD942EE590CD773B7DB5DD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26E47CD8C28FF164B34AFA99 /* Pods-Oustgram.debug.xcconfig */,
+				8DCFBECBB2922DA00839A905 /* Pods-Oustgram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C7289BF921EA48F900B6BD3B = {
 			isa = PBXGroup;
 			children = (
 				C7289C0421EA48F900B6BD3B /* Oustgram */,
 				C7289C0321EA48F900B6BD3B /* Products */,
+				BAD942EE590CD773B7DB5DD2 /* Pods */,
+				2D6A91B5C3788E4E0D2A985C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 			children = (
 				C7289C0521EA48F900B6BD3B /* AppDelegate.swift */,
 				C7289C0721EA48F900B6BD3B /* ViewController.swift */,
+				C7289C1721EC174700B6BD3B /* UserTableViewController.swift */,
 				C7289C0921EA48F900B6BD3B /* Main.storyboard */,
 				C7289C0C21EA48FA00B6BD3B /* Assets.xcassets */,
 				C7289C0E21EA48FA00B6BD3B /* LaunchScreen.storyboard */,
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7289C1421EA48FA00B6BD3B /* Build configuration list for PBXNativeTarget "Oustgram" */;
 			buildPhases = (
+				A2110BF3280E703319F8FC6C /* [CP] Check Pods Manifest.lock */,
 				C7289BFE21EA48F900B6BD3B /* Sources */,
 				C7289BFF21EA48F900B6BD3B /* Frameworks */,
 				C7289C0021EA48F900B6BD3B /* Resources */,
+				1371B2FFF5BF25BB92232C7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +159,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1371B2FFF5BF25BB92232C7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Oustgram/Pods-Oustgram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oustgram/Pods-Oustgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2110BF3280E703319F8FC6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oustgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7289BFE21EA48F900B6BD3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C7289C0821EA48F900B6BD3B /* ViewController.swift in Sources */,
+				C7289C1821EC174700B6BD3B /* UserTableViewController.swift in Sources */,
 				C7289C0621EA48F900B6BD3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +351,7 @@
 		};
 		C7289C1521EA48FA00B6BD3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E47CD8C28FF164B34AFA99 /* Pods-Oustgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +370,7 @@
 		};
 		C7289C1621EA48FA00B6BD3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DCFBECBB2922DA00839A905 /* Pods-Oustgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
